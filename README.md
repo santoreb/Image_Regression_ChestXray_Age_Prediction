@@ -12,7 +12,9 @@ Each picture is of size 2048x2048. A sample of a picture from each gender can be
 
 The architecture used was Resnet18. I updated the number of output features of the final layer to have 1 output option for the age.
 
-To train the model, I created data loaders of size 8 and I ran 100 epochs. The MAE of the test dataset is 11.12, which is considered high. However, due to the low quantity of images, making perfect predictions with this dataset is challenging.
+To train the model, I created data loaders of size 8 and I ran 100 epochs. The MAE of the test dataset is 11.12, which is considered high. However, due to the low quantity of images, making perfect predictions with this dataset is challenging. The chart below shows a comparison between the actual image age and the predicted image age. The better the model, the closer the data points would be to the red line.
+
+![comparison between Actual Image Age and Model Predicted Age](Age_prediction.png)
 
 ## References
 [1] http://db.jsrt.or.jp/eng.php
