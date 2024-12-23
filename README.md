@@ -6,7 +6,7 @@ The aim of this project is to predict the age of the patient of the chest X-ray 
 
 ![Dataset split](Age_Histogram.png)
 
-Each picture is of size 2048x2048. A sample of a picture from each gender can be seen below.
+Each picture is of size 2048x2048. A sample of two pictures can be seen below.
 
 ![Images samples with ages](Age_prediction_sample.png)
 
